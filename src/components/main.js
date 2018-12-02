@@ -4,6 +4,7 @@ import Landing from "./landing";
 import About from "./about";
 import Contact from "./contact";
 import Products from "./products";
+// import Switch from '@material/react-switch';
 
 const Main = () => (
   <Switch>
