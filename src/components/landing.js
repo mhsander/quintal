@@ -16,7 +16,7 @@ class Landing extends Component {
               <h1>Seja muito bem-vindo!</h1>
 
               <hr />
-              {/* <p>Produtos naturais, orgânicos e veganos</p> */}
+              <p>Produtos de qualidade</p>
               <p>Almoço quentinho</p>
               <p>Tele-entrega</p>
               <div className="social-links">
