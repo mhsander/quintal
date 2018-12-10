@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText } from "react-mdl";
+import { Tabs, Tab, Grid, Cell } from "react-mdl";
+import Bebidas from "./bebidas";
 
 class Products extends Component {
   constructor(props) {
@@ -12,41 +13,7 @@ class Products extends Component {
       case 0:
         return (
           <div>
-            {/* Bah Kombucha */}
-            <Card shadow={2}>
-              <CardTitle
-                expand
-                style={{
-                  color: "#fff",
-                  height: "176px",
-                  div: "100px",
-                  background:
-                    "url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover"
-                }}
-              >
-                Kombucha
-              </CardTitle>
-              <CardText>
-                Bá Kombucha! Deliciosa bebida milenar, naturalmente gaseificada,
-                frisante e com sabor de frutas.
-              </CardText>
-            </Card>
-            {/*Agua de coco */}
-            <Card shadow={2}>
-              <CardTitle
-                expand
-                style={{
-                  color: "#fff",
-                  height: "176px",
-                  div: "100px",
-                  backgroud:
-                    "url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover"
-                }}
-              >
-                Agua de coco
-              </CardTitle>
-              <CardText>Sem conservantes</CardText>
-            </Card>
+            <Bebidas />
           </div>
         );
 
@@ -71,7 +38,6 @@ class Products extends Component {
         <Tabs
           activeTab={this.state.activeTab}
           onChange={tabId => this.setState({ activeTab: tabId })}
-          ripple
         >
           <Tab>Bebidas</Tab>
           <Tab>Salgados</Tab>

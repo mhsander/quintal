@@ -11,19 +11,19 @@ class About extends Component {
           <h2>Quem é o Quintal Urbano?</h2>
           <hr />
           <p>
-            O Quintal Urbano surgiu através das vivencias e desejos de dois
+            O Quintal Urbano surgiu através das vivências e desejos de dois
             biólogos, apaixonados pela vida, e amantes da natureza, que
             resolveram estender suas salas de aulas para além do currículo
             tradicional.
             <br />
             <br />
-            Nossas viagens, nossos estudos, nossas vivencias do dia a dia, foram
-            traçando nossos caminhos, até a ideia de manter a biologia de
-            maneira permanente em nossas vidas. Para isto, começamos a visitar
-            feiras agroecológicas, conhecer as histórias de vida de agricultores
-            familiares, o que nos fez entender a importância deles, para que o
-            alimento chegue a nossa mesa e, principalmente a importância
-            ambiental que desempenham na cadeia produtiva.
+            Nossas viagens, nossos estudos, e dia a dia, foram traçando nossos
+            caminhos, até a ideia de manter a biologia de maneira permanente em
+            nossas vidas. Para isso, começamos a visitar feiras agroecológicas,
+            conhecer as histórias de vida de agricultores familiares, o que nos
+            fez entender a importância deles, para que o alimento chegue a nossa
+            mesa e, principalmente a importância ambiental que desempenham na
+            cadeia produtiva.
             <br />
             <br />
             Hoje, acreditamos em ações educativas, orientadas para conservação

@@ -28,6 +28,19 @@
   padding-top: 10px;
 }
 
+.mdl-layout__drawer-button:hover {
+  padding-top: 10px;
+  color: black;
+}
+
+.demo-big-content:hover {
+  color: black;
+}
+
+.category-tabs a:hover {
+  color: rgb(6, 99, 64);
+}
+
 .landing-grid {
   background: #ffffff;
   text-align: center;
