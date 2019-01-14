@@ -4,7 +4,10 @@ import { Grid, Cell } from "react-mdl";
 class Contact extends Component {
   render() {
     return (
-      <div style={{ width: "100%", margin: "auto", paddingTop: "2em" }}>
+      <div
+        className="container"
+        style={{ width: "100%", margin: "auto", paddingTop: "2em" }}
+      >
         <Grid className="landing-grid">
           <Cell col={12}>
             <h2 style={{ color: "#2BB454" }}>Esperamos a sua visita!</h2>
@@ -72,7 +75,7 @@ class Contact extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i class="fa fa-whatsapp" aria-hidden="true" />
+                  <i className="fa fa-whatsapp" aria-hidden="true" />
                 </a>
               </div>
             </div>
@@ -82,8 +85,8 @@ class Contact extends Component {
               <iframe
                 title="Mapa"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3462.93966565675!2d-51.15051278489104!3d-29.779386081979517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951968f7f4c70a7f%3A0x70d537c8928c14d0!2sR.+Medianeira%2C+83+-+Cristo+Rei%2C+S%C3%A3o+Leopoldo+-+RS%2C+Brasil!5e0!3m2!1spt-BR!2sus!4v1516669498376"
-                width="100%"
-                height="100%"
+                width="600"
+                height="415"
                 frameBorder="0"
                 allowFullScreen
               />

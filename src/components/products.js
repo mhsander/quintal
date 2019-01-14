@@ -16,16 +16,13 @@ class Products extends Component {
             <Bebidas />
           </div>
         );
-
       case 1:
         return <div>Salgados</div>;
       case 2:
         return <div>Doces</div>;
       case 3:
-        return <div>Farinhas e sementes</div>;
-      case 4:
         return <div>Congelados</div>;
-      case 5:
+      case 4:
         return <div>Cosméticos</div>;
       default:
         return <div>Bebidas</div>;
@@ -35,6 +32,7 @@ class Products extends Component {
   render() {
     return (
       <div className="category-tabs">
+        <br /> <br />
         <Tabs
           activeTab={this.state.activeTab}
           onChange={tabId => this.setState({ activeTab: tabId })}
@@ -42,11 +40,9 @@ class Products extends Component {
           <Tab>Bebidas</Tab>
           <Tab>Salgados</Tab>
           <Tab>Doces</Tab>
-          <Tab>Farinhas e sementes</Tab>
           <Tab>Congelados</Tab>
           <Tab>Cosméticos</Tab>
         </Tabs>
-
         <section className="products-grid">
           <Grid>
             <Cell col={12}>

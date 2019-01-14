@@ -4,7 +4,7 @@ import { Grid, Cell } from "react-mdl";
 class Landing extends Component {
   render() {
     return (
-      <div style={{ width: "100%", margin: "auto" }}>
+      <div className="container" style={{ width: "100%", margin: "auto" }}>
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
@@ -18,6 +18,7 @@ class Landing extends Component {
               <hr />
               <p>Produtos de qualidade</p>
               <p>Almoço quentinho</p>
+              <p>Feirinha orgânica</p>
               <p>Tele-entrega</p>
               <div className="social-links">
                 {/* Facebook */}
@@ -49,7 +50,7 @@ class Landing extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i class="fa fa-whatsapp" aria-hidden="true" />
+                  <i className="fa fa-whatsapp" aria-hidden="true" />
                 </a>
               </div>
             </div>

@@ -1,5 +1,12 @@
 /* brand colors  light green rgb(43, 180, 84) #2BB454, dark green rgb(6, 99, 64) */
 
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
 .header-color {
   background: rgb(6, 99, 64);
   background: linear-gradient(
@@ -44,7 +51,6 @@
 .landing-grid {
   background: #ffffff;
   text-align: center;
-  /* position: fixed; */
   top: 0;
   left: 0;
   width: 100%;
@@ -53,6 +59,9 @@
 
 .products-grid {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .mdl-card {
@@ -64,10 +73,21 @@
 }
 
 .map {
-  width: 700px;
-  height: 300px;
-  margin-left: 20%;
+  overflow: visible;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  left: 0;
+  top: 0;
 }
+.map iframe {
+  left: 0;
+  top: 0;
+  height: 60%;
+  width: 100%;
+  position: absolute;
+}
+
 .logo-img {
   height: 300px;
   padding-top: 2em;
@@ -117,6 +137,7 @@
   color: white;
   font-size: 25px;
   padding: 0.5em;
+  overflow-wrap: break-word;
 }
 
 .banner-text a:link {
@@ -158,6 +179,9 @@
   display: inline-flex;
   justify-content: space-between;
   width: 50%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
 
 .social-links i {
