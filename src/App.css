@@ -189,3 +189,13 @@
   font-size: 4em;
   padding: 8px;
 }
+
+.mdl-layout__drawer {
+  background-color: #007743;
+  color: #007743;
+}
+
+.mdl-navigation__link :hover {
+  background-color: #007743;
+  color: white;
+}

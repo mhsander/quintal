@@ -10,14 +10,20 @@ class App extends Component {
     modalVisible: true
   };
 
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({ modalVisible: false });
+    }, 3000);
+  }
+
+  componentWillUnmount() {
+    clearTimeout();
+  }
+
   handleClick = () => {
     this.setState({
       modalVisible: false
     });
-  };
-
-  setTimeout = () => {
-    this.setState({ modalVisible: false }, 2000);
   };
 
   render() {
