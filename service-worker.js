@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/quintal/precache-manifest.d28a3cbb56991ef51638fbe59a8bc086.js"
+  "/quintal/precache-manifest.13dbfe9163023ecf2e46d4d98c62c424.js"
 );
 
 workbox.clientsClaim();
