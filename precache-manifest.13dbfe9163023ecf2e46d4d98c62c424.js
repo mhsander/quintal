@@ -4,15 +4,15 @@ self.__precacheManifest = [
     "url": "/quintal/static/js/runtime~main.2ea5db60.js"
   },
   {
-    "revision": "c9399af49677f9b6eeca",
-    "url": "/quintal/static/js/main.9de5ec1c.chunk.js"
+    "revision": "8133a1384b609bcb273a",
+    "url": "/quintal/static/js/main.8ce32ec1.chunk.js"
   },
   {
     "revision": "2f6dc08d771eefa167de",
     "url": "/quintal/static/js/2.c7b2b462.chunk.js"
   },
   {
-    "revision": "c9399af49677f9b6eeca",
+    "revision": "8133a1384b609bcb273a",
     "url": "/quintal/static/css/main.378db7d3.chunk.css"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/quintal/static/css/2.7868eb4f.chunk.css"
   },
   {
-    "revision": "775dfffcbf9b3175c09650291489ea18",
+    "revision": "0df3da16398220e642505d56068b12a6",
     "url": "/quintal/index.html"
   }
 ];
