@@ -28,13 +28,13 @@ class App extends Component {
                 Página Inicial
               </Link>
               <Link to="/sobre" onClick={() => this.hideToggle()}>
-                >Quem Somos
+                Quem Somos
               </Link>
               <Link to="/contato" onClick={() => this.hideToggle()}>
-                >Contato
+                Contato
               </Link>
               <Link to="/produtos" onClick={() => this.hideToggle()}>
-                >Produtos
+                Produtos
               </Link>
             </Navigation>
           </Drawer>
