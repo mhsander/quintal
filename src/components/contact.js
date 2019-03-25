@@ -36,7 +36,7 @@ class Contact extends Component {
               </a>
               <br />
               <br />
-              <p>quintalurbanosl@gmail.com</p>
+              <p style={{ textAlign: "center" }}>quintalurbanosl@gmail.com</p>
               <br />
             </div>
             <h2 style={{ color: "#2BB454" }}>Horário de funcionamento:</h2>

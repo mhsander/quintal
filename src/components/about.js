@@ -10,6 +10,7 @@ class About extends Component {
         <div className="about-text">
           <h2>Quem é o Quintal Urbano?</h2>
           <hr />
+          <br />
           <p>
             O Quintal Urbano surgiu através das vivências e desejos de dois
             biólogos, apaixonados pela vida, e amantes da natureza, que
@@ -45,19 +46,12 @@ class About extends Component {
           <h2>Visão</h2>
           <hr />
           <br />
-          <p />
-          <ul>
-            <li>
-              Temos como base 4 pilares de sustentabilidade, com produtos e
-              práticas:
-            </li>{" "}
-            <br />
-            <li>Ecologicamente corretos</li>
-            <li> Economicamente viáveis</li>
-            <li> Socialmente justos</li>
-            <li> Culturalmente diversos</li>
-            <br />
-          </ul>
+          <p style={{ textAlign: "center" }}>
+            Temos como base 4 pilares de sustentabilidade, com produtos e
+            práticas: ecologicamente corretos, economicamente viáveis,
+            socialmente justos e culturalmente diversos
+          </p>
+          <br />
           <br />
           <h2>Missão</h2>
           <hr />
