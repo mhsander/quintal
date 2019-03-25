@@ -31,10 +31,6 @@
   margin: auto;
 }
 
-.mdl-layout__drawer {
-  background-color: red;
-}
-
 /* fix for hamburger menu display bug */
 .mdl-layout__drawer-button {
   padding-top: 10px;
@@ -196,7 +192,6 @@
 }
 
 .mdl-layout__drawer {
-  background-color: #007743;
   color: #007743;
 }
 
