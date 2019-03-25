@@ -2,30 +2,9 @@ import React, { Component } from "react";
 import "./App.css";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import Main from "./components/main";
-import Modal from "./components/Modal";
 import { Link } from "react-router-dom";
 
 class App extends Component {
-  state = {
-    modalVisible: true
-  };
-
-  componentDidMount() {
-    setTimeout(() => {
-      this.setState({ modalVisible: false });
-    }, 3000);
-  }
-
-  componentWillUnmount() {
-    clearTimeout();
-  }
-
-  handleClick = () => {
-    this.setState({
-      modalVisible: false
-    });
-  };
-
   render() {
     return (
       <div className="demo-big-content">
@@ -51,13 +30,6 @@ class App extends Component {
             <Main />
           </Content>
         </Layout>
-        {this.state.modalVisible && (
-          <Modal>
-            <div className="Modal" onClick={this.handleClick}>
-              <h2>Pode entrar! Te esperamos no nosso Quintal!</h2>
-            </div>
-          </Modal>
-        )}
       </div>
     );
   }
