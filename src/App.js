@@ -10,6 +10,8 @@ class App extends Component {
     selectorId.MaterialLayout.toggleDrawer();
   }
 
+  handleSelected(index) {}
+
   render() {
     return (
       <div className="demo-big-content">

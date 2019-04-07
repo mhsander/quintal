@@ -36,6 +36,7 @@ class Products extends Component {
         <Tabs
           activeTab={this.state.activeTab}
           onChange={tabId => this.setState({ activeTab: tabId })}
+          scroll
         >
           <Tab scroll>Bebidas</Tab>
           <Tab scroll>Salgados</Tab>
