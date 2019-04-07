@@ -10,8 +10,6 @@ class App extends Component {
     selectorId.MaterialLayout.toggleDrawer();
   }
 
-  handleSelected(index) {}
-
   render() {
     return (
       <div className="demo-big-content">
@@ -24,7 +22,7 @@ class App extends Component {
               <Link to="/produtos">Produtos</Link>
             </Navigation>
           </Header>
-          <Drawer onClick={() => this.hideToggle()} title="Quintal Urbano">
+          <Drawer title="Quintal Urbano">
             <Navigation>
               <Link to="/" onClick={() => this.hideToggle()}>
                 Página Inicial
