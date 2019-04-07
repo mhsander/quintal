@@ -37,11 +37,11 @@ class Products extends Component {
           activeTab={this.state.activeTab}
           onChange={tabId => this.setState({ activeTab: tabId })}
         >
-          <Tab>Bebidas</Tab>
-          <Tab>Salgados</Tab>
-          <Tab>Doces</Tab>
-          <Tab>Congelados</Tab>
-          <Tab>Cosméticos</Tab>
+          <Tab scroll>Bebidas</Tab>
+          <Tab scroll>Salgados</Tab>
+          <Tab scroll>Doces</Tab>
+          <Tab scroll>Congelados</Tab>
+          <Tab scroll>Cosméticos</Tab>
         </Tabs>
         <section className="products-grid">
           <Grid>
