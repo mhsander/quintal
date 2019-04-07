@@ -17,15 +17,15 @@ class Products extends Component {
           </div>
         );
       case 1:
-        return <div>Salgados</div>;
+        return <div>Comidas</div>;
       case 2:
-        return <div>Doces</div>;
-      case 3:
-        return <div>Congelados</div>;
-      case 4:
         return <div>Cosméticos</div>;
       default:
-        return <div>Bebidas</div>;
+        return (
+          <div>
+            <Bebidas />
+          </div>
+        );
     }
   }
 
@@ -36,14 +36,16 @@ class Products extends Component {
         <Tabs
           activeTab={this.state.activeTab}
           onChange={tabId => this.setState({ activeTab: tabId })}
-          scroll
         >
-          <Tab scroll>Bebidas</Tab>
-          <Tab scroll>Salgados</Tab>
-          <Tab scroll>Doces</Tab>
-          <Tab scroll>Congelados</Tab>
-          <Tab scroll>Cosméticos</Tab>
+          <Tab>Bebidas</Tab>
+          <Tab>Comidas</Tab>
+          <Tab>Cosméticos</Tab>
         </Tabs>
+        <br />
+        <h4>
+          Esses são apenas alguns dos produtos que oferecemos. Veja mais
+          produtos e seus detalhes, no nosso Quintal. Te esperamos lá!{" "}
+        </h4>
         <section className="products-grid">
           <Grid>
             <Cell col={12}>

@@ -45,10 +45,6 @@ class Bebidas extends Component {
               "url(https://static1.squarespace.com/static/574cdfff2fe1312abdee230e/574db22e37013bf11bdd0462/59964130893fc06d209d7079/1534894696501/S28_01Abr_2017_IG+%281%29.jpg) center / cover"
           }}
         />
-        <p>
-          Esses são apenas alguns dos produtos que oferecemos. Veja mais
-          produtos e seus detalhes, no nosso Quintal. Te esperamos lá!{" "}
-        </p>
       </div>
     );
   }
