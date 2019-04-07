@@ -22,7 +22,7 @@ class App extends Component {
               <Link to="/produtos">Produtos</Link>
             </Navigation>
           </Header>
-          <Drawer title="Quintal Urbano">
+          <Drawer onClick={() => this.hideToggle()} title="Quintal Urbano">
             <Navigation>
               <Link to="/" onClick={() => this.hideToggle()}>
                 Página Inicial
