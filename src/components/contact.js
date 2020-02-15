@@ -14,30 +14,42 @@ class Contact extends Component {
             <br />
             <div className="banner-text">
               <br />
-              <a
-                style={{ color: "#ffffff", fontSize: 25 }}
-                href="https://www.google.com/maps?ll=-29.779309,-51.14835&z=16&t=m&hl=en-US&gl=US&mapclient=embed&daddr=R.+Medianeira,+83+-+Cristo+Rei+S%C3%A3o+Leopoldo+-+RS+93020-410+Brazil@-29.7793093,-51.1483503"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                {" "}
-                Rua Medianeira 83, São Leopoldo, RS
-              </a>
-              <br />
-              <br /> <br />
-              <a
-                style={{ color: "#ffffff", fontSize: 25 }}
-                href="https://api.whatsapp.com/send?phone=555189242085&text=&source=&data="
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                {" "}
-                51 98924-2085 - ligação e WhatsApp
-              </a>
-              <br />
-              <br />
-              <p style={{ textAlign: "center" }}>quintalurbanosl@gmail.com</p>
-              <br />
+              <div className="contact-number-icons">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <a
+                  style={{ color: "#ffffff", fontSize: 25 }}
+                  href="https://www.google.com/maps?ll=-29.779309,-51.14835&z=16&t=m&hl=en-US&gl=US&mapclient=embed&daddr=R.+Medianeira,+83+-+Cristo+Rei+S%C3%A3o+Leopoldo+-+RS+93020-410+Brazil@-29.7793093,-51.1483503"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  {" "}
+                  Rua Medianeira 83, São Leopoldo, RS
+                </a>
+                <br />
+                <br /> <br />
+                <i class="fa fa-mobile" aria-hidden="true"></i>
+                <a
+                  style={{ color: "#ffffff", fontSize: 25 }}
+                  href="https://api.whatsapp.com/send?phone=555189242085&text=&source=&data="
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  {" "}
+                  (51) 99641-7600 - Ligação e WhatsApp
+                </a>
+                <br />
+                <br />
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <p style={{ display: "inline" }}>
+                  (51) 3099-4021 - Telefone fixo
+                </p>
+                <br />
+                <br />
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                <p style={{ display: "inline" }}>quintalurbanosl@gmail.com</p>
+                <br />
+                <br />
+              </div>
             </div>
             <h2 style={{ color: "#2BB454" }}>Horário de funcionamento:</h2>
             <br />

@@ -46,7 +46,7 @@ class Landing extends Component {
                   <i className="fa fa-pinterest-square" aria-hidden="true" />
                 </a>
                 <a
-                  href="https://wa.me/555189242085"
+                  href="https://wa.me/5551996417600"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
